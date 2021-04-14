@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/software/CLionProjects/untitled/guesser.h
+string
+-
+iostream
+-
+
+/Users/software/CLionProjects/untitled/main.cpp
+thread
+-
+vector
+-
+guesser.h
+/Users/software/CLionProjects/untitled/guesser.h
+
